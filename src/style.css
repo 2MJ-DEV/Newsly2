@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.deco {
+    background-image: linear-gradient(#f8f8f8 0.5px, transparent 0.5px), linear-gradient(to right, #f8f8f8 0.5px, transparent 0.5px);
+        background-size: 43px 43px;
+        background-color: #ffffff;
+}
