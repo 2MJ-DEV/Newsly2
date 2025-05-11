@@ -3,45 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Runic&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>BuilderMania</title>
   </head>
-  <body class="deco">
-    <header class="border-b">
+  <body class="font">
+    <!-- Dégradé sous le header -->
+    <div
+      class="fixed hidden lg:block dark:hidden bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 blur-3xl size-[60rem] lg:left-[15%] rounded-full lg:-top-[90%] z-0">
+    </div>
+
+    <header class="">
       <div class="flex justify-between items-center w-[90vw] mx-auto py-5">
         <div class="flex gap-2">
           <img src="" alt="">
-          <span>GetBuildMania</span>
+          <span>BuilderMania</span>
         </div>
       </div>
     </header>
 
-    <main>
-      <section class="w-[75vw] mx-auto">
-        <div class="flex flex-col justify-center items-center gap-12 h-screen">
-          <div class="flex flex-col justify-center items-center gap-8">
-            <h1>join our waitlist</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum explicabo, odio exercitationem excepturi, possimus eum earum natus, nesciunt rem aut quasi amet delectus dolore quas error autem assumenda nemo at.</p>
+    <main class="">
+      <section class="lg:w-[75vw] w-[98vw] mx-auto lg:mt-16 mt-20">
+        <div class="flex flex-col justify-center items-center gap-12 ">
+          <div class="flex flex-col justify-center items-center gap-8 py-12 lg:border-b border-zinc-950/5">
+            <h1 class="text-2xl lg:text-4xl uppercase">join our waitlist</h1>
+            <p class="flex text-center text-md sm:text-md text-balance">Do you have an idea but lack the technical skills? Or are you a developer looking for concrete projects?
+            Join the waiting list to get early access to the platform that connects ideas and talent.</p>
             <div class="">
-              <form action="" method="post" class="flex gap-8">
-                <div class="bg-black text-white px-8 py-2">
-                  <input type="email" name="email" id="" placeholder="exemple@gmail.com">
+              <form action="" method="post" class="flex flex-col gap-4 sm:flex-col lg:flex-row lg:gap-8">
+                <div class="bg-black flex text-start text-white px-6 py-2 w-full lg:w-auto">
+                  <input type="email" name="email" placeholder="exemple@gmail.com"
+                    class="bg-transparent border-none outline-none placeholder:text-white/50 w-full" required />
                 </div>
-                <button type="submit">get early access</button>
+                <button type="submit"
+                  class="bg-white border border-zinc-950/5 px-4 py-2 hover:bg-zinc-100 transition duration-300 cursor-pointer w-full lg:w-auto">
+                  get early access
+                </button>
               </form>
             </div>
+
           </div>
-          <div class="flex gap-2">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-            <img src="" alt="Illustration">
-          </div>
+          <div class="gap-[-2] hidden lg:flex">
+            <img src="/src/assets/imgs/Open Peeps - Standing (6).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (3).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (4).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (7).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing.png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (2).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (1).png" alt="Illustration" class="max-w-[100px] h-auto">
+            <img src="/src/assets/imgs/Open Peeps - Standing (5).png" alt="Illustration" class="max-w-[100px] h-auto">
         </div>
       </section>
     </main>

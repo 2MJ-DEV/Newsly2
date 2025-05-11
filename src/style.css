@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
 .deco {
-    background-image: linear-gradient(#e7e7e7 0.5px, transparent 0.5px), linear-gradient(to right, #e7e7e7 0.5px, transparent 0.5px);
-        background-size: 43px 43px;
-        background-color: #ffffff;
+    background-image: repeating-linear-gradient(45deg, #e7e7e7 0, #e7e7e7 0.5px, transparent 0, transparent 50%);
+    background-size: 38px 38px;
+    background-color: #ffffff;
+}
+
+
+.font {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    color: #333333;
 }
