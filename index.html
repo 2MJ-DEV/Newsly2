@@ -9,12 +9,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Runic&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BuilderMania</title>
+
+    <!-- meta description -->
+    <meta name="description"
+      content="Rejoignez BuilderMania, la plateforme qui connecte idées et talents. Inscrivez-vous sur notre liste d'attente !">
+    <meta property="og:title" content="BuilderMania - Connectez idées et talents">
+    <meta property="og:description"
+      content="Rejoignez BuilderMania, la plateforme qui connecte idées et talents. Inscrivez-vous sur notre liste d'attente !">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://buildermania.vercel.app/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>BuilderMania - Connectez idées et talents</title>
   </head>
   <body class="font">
     <!-- Dégradé sous le header -->
     <div
-      class="fixed hidden lg:block dark:hidden bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 blur-3xl size-[60rem] lg:left-[15%] rounded-full lg:-top-[90%] z-0">
+      class="fixed hidden lg:block bg-gradient-to-b  dark:via-blue-900/50 to-transparent blur-3xl size-[50rem] lg:left-[25%] rounded-full lg:-top-[90%] z-0"></div>
     </div>
 
     <header class="">
@@ -27,15 +38,15 @@
     </header>
 
     <main class="">
-      <section class="lg:w-[75vw] w-[98vw] mx-auto lg:mt-16 mt-20">
+      <section class="lg:w-[75vw] md:w-[95vw] w-[98vw] mx-auto md:mt-55 lg:mt-16 mt-20">
         <div class="flex flex-col justify-center items-center gap-12 ">
           <div class="flex flex-col justify-center items-center gap-8 py-12 lg:border-b border-zinc-950/5">
             <h1 class="text-2xl lg:text-4xl uppercase">join our waitlist</h1>
             <p class="flex text-center text-md sm:text-md text-balance">Do you have an idea but lack the technical skills? Or are you a developer looking for concrete projects?
             Join the waiting list to get early access to the platform that connects ideas and talent.</p>
             <div class="">
-              <form action="" method="post" class="flex flex-col gap-4 sm:flex-col lg:flex-row lg:gap-8">
-                <div class="bg-black flex text-start text-white px-6 py-2 w-full lg:w-auto">
+              <form action="" method="post" class="flex flex-col gap-4 md:flex-row lg:flex-row lg:gap-8">
+                <div class="bg-black flex text-start text-white px-3 py-2 w-full lg:w-auto">
                   <input type="email" name="email" placeholder="exemple@gmail.com"
                     class="bg-transparent border-none outline-none placeholder:text-white/50 w-full" required />
                 </div>
@@ -47,7 +58,7 @@
             </div>
 
           </div>
-          <div class="gap-[-2] hidden lg:flex">
+          <div class="hidden lg:flex">
             <img src="/src/assets/imgs/Open Peeps - Standing (6).png" alt="Illustration" class="max-w-[100px] h-auto">
             <img src="/src/assets/imgs/Open Peeps - Standing (3).png" alt="Illustration" class="max-w-[100px] h-auto">
             <img src="/src/assets/imgs/Open Peeps - Standing (4).png" alt="Illustration" class="max-w-[100px] h-auto">
@@ -60,7 +71,6 @@
       </section>
     </main>
 
-    <footer></footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
